@@ -1,0 +1,222 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; 
+  }
+  
+  .left-side a {
+    margin-right: 10px;
+  }
+  .home-container img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(160, 129, 187, 1);
+    image-rendering: crisp-edges;
+    border: 2px solid rgb(105, 12, 185); /* Add a purple border */
+  }
+  
+  
+  .right-side {
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Spread items evenly along the main axis */
+    align-items: center; 
+
+  }
+  
+  .right-side img {
+    margin-left:-20% ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(89, 88, 88, 0.5);
+  }
+
+  .home_title{
+    display: block;
+
+  }
+.line-before{
+  color: #8656b0;
+  font-size:1.2rem ;
+}
+
+.line-before::before {
+  content: ''; /* Required for pseudo-elements */
+  display: inline-block;
+  width: 1cm; /* Set the width of the line */
+  height: 1px; /* Set the height of the line */
+  background-color: black; /* Set the color of the line */
+  margin-right: 10px; /* Adjust the spacing between the line and the text */
+  vertical-align: middle; /* Align the line vertically with the text */
+}
+
+
+  
+  /* Add more specific styling for social media icons, h1, h2 as needed */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  
+ 
+
+  .play-on {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    margin-left: -50px;
+    background-size: cover;
+    cursor: pointer;
+    
+
+    opacity: 0.4;
+
+}
+
+
+.facebook{
+  background-image: url(./images/facebook-icon.png);
+  &:hover {
+    background-image: url(./images/facebook.gif);
+  }
+
+
+}
+
+.mail{
+  background-image: url(./images/mail-icon.png);
+  &:hover {
+    background-image: url(./images/mail.gif);
+  }
+
+}
+.instagram{
+  background-image: url(./images/instagram-icon.png);
+  &:hover {
+    background-image: url(./images/instagram.gif);
+  }
+
+}
+.github{
+  background-image: url(./images/github-icon.png);
+  &:hover {
+    background-image: url(./images/github.gif);
+  }
+
+}
+.linkedin{
+  background-image: url(./images/linkedin-icon.png);
+  &:hover {
+    background-image: url(./images/linkedin.gif);
+  }
+
+}
+.medium{
+  background-image: url(./images/medium-icon.png);
+
+  &:hover {
+    background-image: url(./images/medium.gif);
+  }
+}
+.twitter{
+  background-image: url(./images/twitter-icon.png);
+  &:hover {
+    background-image: url(./images/twitter.gif);
+  }
+
+}
+.reddit{
+  background-image: url(./images/reddit-icon.png);
+  &:hover {
+    background-image: url(./images/reddit.gif);
+  }
+
+}
+
+
+.logoP{
+  display: inline-block;
+  background-image: url(./images/p.png);
+  width: 150px; /* Set the width of the logo */
+  height: 150px; /* Maintain aspect ratio */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  margin-right: -50px;
+  margin-bottom: -28px;
+  opacity: 0.8;
+
+  &:hover{
+    opacity: 1;
+    transform: translateY(-10px); /* Move the text slightly upwards on hover */
+
+  }
+}
+
+
+.say-hello{
+  background-image: url(./images/Helloo.png);
+  width: 150px; /* Set the width of the logo */
+  height: 40px; /* Maintain aspect ratio */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  border-radius: 80px;
+  opacity: 0.9;
+
+}
+
+.say-hello:hover {
+  opacity: 0.5; /* Move the text slightly upwards on hover */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+    
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home_letter {
+  font-size: 50px;
+  transition: transform 0.3s ease; 
+  opacity: 0; /* Initially hide the text */
+  animation: fadeInUp 3s ease forwards; /* Apply the animation */
+}
+
+
+
+.text-animate-hover {
+  display: inline-block;
+ 
+  font-weight: bold;
+
+  color: rgb(49, 46, 46);
+}
+
+.text-animate-hover:hover {
+  color: #8656b0;
+  transform: translateY(-10px); /* Move the text slightly upwards on hover */
+
+}

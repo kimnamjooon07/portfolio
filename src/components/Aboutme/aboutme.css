@@ -1,0 +1,67 @@
+.about-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.star {
+  background-image: url(./images/star.png);
+  width: 30px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+.text-animate-hover_aboutme {
+  display: inline-block;
+
+  font-weight: bold;
+  font-size: 40px;
+
+  color: rgb(54, 25, 77);
+}
+.space {
+  margin: 0 5px;
+}
+
+.text-animate-hover_aboutme:hover {
+  color: #a775ce;
+  transform: translateY(-10px);
+}
+
+.about-description {
+  margin-top: 20px;
+}
+
+.about-container h1 {
+  color: #9156d4;
+  font-size: 40px;
+}
+
+.about-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-family: "Lora", serif;
+  padding: 10px 70px 10px 70px;
+  color: rgb(104, 107, 111);
+}
+
+.resume {
+  background-image: url(./images/resume.png);
+  width: 150px; 
+  height: 40px; 
+  background-size: cover; 
+  background-position: center;
+  border-radius: 80px;
+  opacity: 0.9;
+}
+
+.resume:hover {
+  opacity: 0.5;
+}

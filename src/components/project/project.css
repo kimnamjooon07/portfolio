@@ -1,0 +1,68 @@
+.projects-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.sub-nav {
+  margin-bottom: 20px;
+}
+
+.sub-nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  position: relative;
+  color: #000; /* Default color for inactive tabs */
+}
+
+.sub-nav button.active {
+  color: rgb(192, 164, 235); /* Color for the active tab */
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.project-card {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.project-card .content {
+  padding: 20px;
+}
+
+.project-card .content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-card .content p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.used-technologies {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}

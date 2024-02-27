@@ -1,0 +1,136 @@
+.journey-container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.sub-nav {
+  margin-bottom: 20px;
+}
+
+.sub-nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  position: relative;
+
+  font-family: "Lora", serif;
+  color: rgb(70, 66, 66);
+
+  font-weight: bold;
+
+  padding: 0.5rem 1rem;
+  &:hover {
+    color: rgb(187, 144, 233);
+  }
+}
+
+.sub-nav button.active {
+  color: rgb(163, 122, 225);
+}
+
+.sub-nav button.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #4f2183;
+  bottom: 0;
+  left: 0;
+}
+
+.journey-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journey-container .text-animate {
+  display: inline-block;
+
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 40px;
+
+  color: rgb(54, 25, 77);
+}
+
+.journey-container .text-animate:hover {
+  color: #a775ce;
+  transform: translateY(-10px);
+}
+
+.education-box,
+.experience-box {
+  width: 500px; 
+  height: 50px;
+  background-color: #fff; 
+  margin-bottom: 20px; 
+  border-radius: 8px; 
+  padding: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  align-items: center;
+}
+
+.logoo {
+  margin-right: 20px;
+  background-size: cover; 
+  background-position: center;
+  margin-right: 50px;
+  margin-top: 10px;
+  opacity: 1; 
+}
+
+.sub-name {
+  color: rgb(156, 161, 169);
+  font-size: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-family: "Lora", serif;
+  padding: 10px 0px 10px 0px;
+  color: rgb(35, 36, 37);
+}
+
+.school-logo {
+  background-image: url(./images/school.png);
+  width: 80px; 
+  height: 80px;
+}
+.college-logo {
+  background-image: url(./images/college.png);
+  width: 100px; 
+  height: 100px;
+}
+.campus-logo {
+  background-image: url(./images/TU.png);
+  width: 80px; 
+  height: 90px;
+}
+
+.wibd-logo {
+  background-image: url(./images/wibd.png);
+  width: 110px; /* Set the width of the logo */
+  height: 95px;
+}
+.girlsintech-logo {
+  background-image: url(./images/girlsintech.png);
+  width: 80px; /* Set the width of the logo */
+  height: 80px;
+}
+.uniquecenter-logo {
+  background-image: url(./images/unique.jpg);
+  width: 90px; /* Set the width of the logo */
+  height: 90px;
+}

@@ -1,0 +1,68 @@
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  font-family: "Lora", serif;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+  padding: 0.5rem 1rem;
+}
+
+.navbar-align {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 10px;
+
+  max-width: 900px;
+}
+
+nav ul li {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(70, 66, 66);
+  position: relative;
+  &:hover {
+    color: rgb(187, 144, 233);
+  }
+}
+
+.nav-link span {
+  position: relative;
+  z-index: 1;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(104, 73, 151);
+  bottom: -2px;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover .line {
+  width: 100%;
+}
+
+.logo {
+  background-image: url(./images/logoo.png);
+  width: 80px; 
+  height: 50px; 
+  background-size: cover; 
+  background-position: center;
+  margin-right: 50px;
+  margin-top: 10px;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
